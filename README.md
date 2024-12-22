@@ -4,6 +4,6 @@
 
 使用了 [nlohmann/json](https://github.com/nlohmann/json.git) 处理 json 数据。
 
-目前有一个基本使用上的 BUG，在对象被销毁时，内存中的数据不会被持久化，也不能从 WAL 中恢复。
+目前有一个基本使用上的 BUG，在对象被销毁时，未持久化的数据不会被持久化，也不能从 WAL 中恢复。
 
 需要 C++17
