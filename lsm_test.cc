@@ -4,7 +4,7 @@
 #include <unistd.h>
 
 #include <random>
-
+using namespace LSMTreeKVStorage;
 // 工具函数：生成随机字符串
 std::string randomString(size_t length) {
   static const char charset[] =
